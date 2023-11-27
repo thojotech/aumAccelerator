@@ -7,6 +7,6 @@ The aumAccelerator uses a number of Bicep modules from the [ALZ-Bicep](https://g
 ### ALZ-Bicep
 I recommend you start with the [ALZ-Bicep accelerator](https://github.com/Azure/ALZ-Bicep/wiki/Accelerator), which will give you the basic framework for successfully implementing the aumAccelerator. After you complete the steps to implement the ALL-Bicep accelerator, copy the aumAccelerator files to ALZ-Bicep\config\custom-modules.
 
-The aumAccelerator uses the policyAssignmentManagementGroup.bicep module to assign the "Configure periodic checking for missing system updates on azure virtual machines" policy definition to the Intermediate root management group. If you are not familar with policy assignment in Azure Landing zones, I recommend you visit the [Azure Enterprise Scale Landing Zone (ESLZ)](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-Policies) architecture documentatione before continuing.
+The aumAccelerator uses the **resourceGroup.bicep** for creating Azure resource groups, and the **policyAssignmentManagementGroup.bicep** module to assign the *"Configure periodic checking for missing system updates on azure virtual machines"* policy definition to the Intermediate root management group. If you are not familar with policy assignment in Azure Landing zones, I recommend you visit the [Azure Enterprise Scale Landing Zone (ESLZ)](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-Policies) architecture documentation before continuing.
 
 ### Common Azure Resource Modules Library (CARML)
